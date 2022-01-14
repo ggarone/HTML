@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Liste pagine</h1>
+    <ul>
+        <li><a href="./index.html">home page</a></li>
+        <li><a href="./modulo.html">form</a></li>
+        <li><a href="./tabelle.html">tabelle</a></li>
+    </ul>
+    <hr>
+    <table>
+        <caption>L'HTML nel tempo</caption>
+        <thead>
+            <tr>
+                <th>Versione</th>
+                <th>Anno</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>HTML</td>
+                <td>1991</td>
+            </tr>
+            <tr>
+                <td>HTML 2.0</td>
+                <td>1995</td>
+            </tr>
+            <tr>
+                <td>HTML 3.2</td>
+                <td>1997</td>
+            </tr>
+            <tr>
+                <td>HTML 4.01</td>
+                <td>1999</td>
+            </tr>
+            <tr>
+                <td>XHTML 1</td>
+                <td>2000</td>
+            </tr>
+            <tr>
+                <td>HTML 5</td>
+                <td>2014</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+    <table>
+        <caption>Supereroi e loro auitanti</caption>
+        <colgroup>
+            <col>
+            <!-- raggruppo semanticamente le prime due colonne -->
+            <col span="2">
+            <!-- raggruppo semanticamente le ultime due colonne -->
+            <col span="2">
+        </colgroup>
+        <tr>
+            <td></td>
+            <th scope="col">Batman</th>
+            <th scope="col">Robin</th>
+            <th scope="col">Flash</th>
+            <th scope="col">Kid Flash</th>
+        </tr>
+        <tr>
+            <th scope="row">Skill</th>
+            <td>Intelligenza</td>
+            <td>Agilita'</td>
+            <td>Super velocita'</td>
+            <td>Super velocita'</td>
+        </tr>
+    </table>
+    <hr>
+    <table>
+        <caption>Grandi campioni del calcio</caption>
+        <tr>
+            <th scope="col">Player</th>
+            <th scope="col">Presenze</th>
+            <th scope="col">Goal</th>
+        </tr>
+        <tr>
+            <th scope="row">CR-7</th>
+            <td>1023</td>
+            <td>748</td>
+        </tr>
+        <tr>
+            <th scope="row">Messi</th>
+            <td>914</td>
+            <td>723</td>
+        </tr>
+        <tr>
+            <th scope="row">Maradona</th>
+            <td>588</td>
+            <td>312</td>
+        </tr>
+    </table>
+    <hr>
+    <table>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th colspan="2" scope="colgroup">Contatti</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Paolo</td>
+                <td>011 752546</td>
+                <td>335 63258789</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+    <table>
+        <tr>
+            <th>Nome</th>
+            <td>Paolo Rossi</td>
+        </tr>
+        <tr>
+            <th rowspan="2" scope="rowgroup">Contatti</th>
+            <td>011 752546</td>
+        </tr>
+        <tr>
+            <td>335 63258789</td>
+        </tr>
+    </table>
+
+</body>
+
+</html>

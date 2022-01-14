@@ -1,0 +1,30 @@
+.big {
+    font-size: 72;
+}
+
+.boom {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* body {
+    background-color: rgb(92, 90, 90);
+    animation-name: color;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  } 
+  
+   @keyframes color {
+    0% {
+      background-color: #222;
+    }
+    50% {
+      background-color: #4285f4;
+    }
+    100 {
+      background-color: #222;
+    } 
+  }*/

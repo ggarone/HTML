@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Home</h1>
+    <header></header>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="embedding.html">Embedding</a></li>
+        <li><a href="html5.html">html5</a></li>
+    </ul>
+    <form method="GET" enctype="multipart/form-data">
+        <!-- <label for="user">Username</label><br>
+        <input type="text" name="username" id="user"><br>
+        <label for="password">Password</label><br>
+        <input type="password" name="password" id="password"><br>
+        <input type="submit" value="Login"> -->
+
+        <fieldset>
+            <legend>Anagrafica</legend>
+            <label for="firstname"><span style="color: rebeccapurple;"></span> Nome</label><br>
+            <input type="text" name="firstname" id="firstname" value="Paolo" placeholder="name" size="30" minlength="3" maxlength="30" autofocus required><br>
+            <label for="lastname">Cognome</label><br>
+            <input type="text" name="lastname" id="lastname" disabled><br>
+            <label for="male"><input type="radio" name="gender" id="male" value="M">M</label>
+            <label for="female"><input type="radio" name="gender" id="female" value="F">F</label><br>
+            <label for="dateofbirth">Data nascita</label>
+            <input type="date" name="dateofbirth" id="dateofbirth"><br>
+            <label for="mysite">Inserisci il tuo url</label><br>
+            <input type="url" name="mysite" id="mysite" placeholder="https://www.example.com"><br>
+            <input type="time" name="time" id="time"><br>
+            <label for="email">Inesrisci la tua email</label><br>
+            <input type="email" name="email" id="email" placeholder="example@gmail.com" required><br>
+            <label for="">Inserisci il numero di...</label><br>
+            <input type="number" name="number" id="number"><br>
+            <label for="">Inserisci il numero di...[0-20]</label><br>
+            <input type="number" name="number" id="number" min="0" max="20">
+            <label for="range">Inserisci la tua valutazione</label><br>
+            <input type="range" name="score" id="score" min="25" max="75">
+        </fieldset>
+
+        <fieldset>
+            <label for="search">Cerca</label>
+            <input type="search" name="search" id="search">
+        </fieldset>
+
+        <fieldset>
+            <legend>Interessi</legend>
+            <label for="music"><input type="checkbox" name="music" id="music">Musica</label><br>
+            <label for="foto"><input type="checkbox" name="foto" id="foto">Fotografia</label><br>
+            <label for="design"><input type="checkbox" name="design" id="design">Design</label><br>
+            <label for="coding"><input type="checkbox" name="coding" id="coding">Coding</label><br>
+            <label for="grafica"><input type="checkbox" name="grafica" id="grafica">Grafica</label>
+            <label for="color"></label><br>
+            <input type="color" name="color" id="color"><br>
+            <label for="car">Scegli l'auto</label>
+            <select name="car" id="car" multiple size="3">
+                <option value="">Scegli tra i seguanti veicoli</option>
+                <optgroup label="auto italiane">
+                    <option value="panda">panda</option>
+                    <option value="uno">uno</option>
+                    <option value="ritmo">ritmo</option>
+                </optgroup>
+                <optgroup label="auto tedesche">
+                    <option value="A">Classe A</option>
+                    <option value="B">Classe B</option>
+                    <option value="C">Classe C</option>
+
+                </optgroup>
+            </select>
+            <br>
+            <small>per selezionare valori non continui usa il tast <kbd>ctrl</kbd></small>
+        </fieldset>
+
+        <fieldset>
+            <legend>CV</legend>
+            <label for="file">Carica il tuo CV</label><br>
+            <input type="file" name="file" id="file" accept="application/pdf"><br>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Avatar</legend>
+            <label for="avatar">Carica le tue immagini</label><br>
+            <!-- could use * e.g. image/* -->
+            <input type="file" name="avatar" id="avatar" accept="image/jpeg" multiple><br>
+        </fieldset>
+
+        <label for="msg">Lascia un messaggio</label><br>
+        <textarea name="" id="" cols="30" rows="10" placeholder="inserisci un commento"></textarea>
+
+        <input type="button" value="clicca qui!" onclick="alert('(┬┬﹏┬┬)');"><br>
+        <input type="reset" value="ripristina"><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
