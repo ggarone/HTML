@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="il mio blog">
+    <meta name="keywords" content="HTML">
+    <meta name="author" content="Giuseppe Garone">
+    <title>Il mio Blog: Registrati</title>
+</head>
+<body>
+    <nav>
+        <a href="./index.html">Home</a>
+        <a href="./contact.html">Contattaci</a>
+        <a href="./join.html">Registrati</a>
+    </nav>
+    <section>
+        <h1>Registrati</h1>
+        <p>Compila il modulo seguente per registrati al nostro blog! Potrai commentare i nostri articoli e
+            collaborare con noi.</p>
+    </section>
+
+    <section>
+        <h2>Modulo di compilazione</h2>
+        <form method="GET" enctype="multipart/form-data">
+            <label for="nome">Nome:<input type="text" name="nome" id="nome" required></label><br>
+            <label for="cognome">Cognome:<input type="text" name="cognome" id="cognome" required></label><br>
+            <label for="date">Data di nascita:<input type="date" name="date" id="date" required></label><br>
+            <label for="male">M<input type="radio" name="gender" id="male" required></label>
+            <label for="female">F<input type="radio" name="gender" id="female" required></label><br>
+            <label for="nickname">Nickname:<input type="text" name="nickname" id="nickname" required></label><br>
+            <label for="password">Password:<input type="password" name="password" id="password" required></label><br>
+            <label for="email">email:<input type="email" name="email" id="email" required></label><br>
+            
+            <textarea name="privacy" id="privacy" cols="50" rows="10" readonly>
+            Informativa sulla privacy
+            “Termini del servizio” e “Condizioni di privacy”
+            La società BLABLA desidera informarLa che il D.Lgs. 196/2003, sostitutivo della legge 675/1996,
+            prevede la tutela delle persone e di altri soggetti rispetto al trattamento dei dati personali.
+            Secondo il decreto legislativo indicato, tale trattamento sarà improntato ai principi di correttezza,
+            liceità e trasparenza e di tutela della Sua riservatezza e dei Suoi diritti.”
+            </textarea><br>
+            <label for="terms"><input type="checkbox" name="terms" id="terms" required>Accetto i termini</label><br>
+            <input type="submit" value="Invia">
+        </form>
+    </section>
+
+    <footer>
+        <p>Giuseppe Garone |
+        giuseppe.garone@edu.immaginazioneelavoro.it |
+        18/01/2022</p>
+    </footer>
+</body>
+</html>
