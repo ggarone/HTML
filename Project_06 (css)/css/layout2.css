@@ -1,0 +1,63 @@
+.container {
+    margin: 0 auto;
+    max-width: 75rem;
+    width: 90%;
+    height: 62.5rem;
+    background-color: white;
+}
+
+header {
+    background-color: rgba(122, 255, 255, 0.555);
+    height: 10rem;
+}
+
+nav {
+    background-color: chartreuse;
+}
+
+nav ul li:hover {
+    background-color: crimson;
+}
+
+a:hover {
+    color: rgb(100, 70, 46);
+}
+
+a{
+    text-decoration: none;
+    color: rgb(170, 119, 77);
+}
+ul {
+    padding-left: 0rem;
+}
+
+ul li {
+    margin: 1rem auto;
+    display: inline;
+    height: 2rem;
+    padding: 0 0.3rem;
+}
+
+.row {
+    display: flex;
+}
+
+section {
+    
+    height: 42.5rem;
+}
+
+footer {
+    background-color: red;
+    height: 10rem;
+}
+
+.col-9 {
+    width: 75%;
+    background-color: rgb(255, 255, 131);
+}
+
+.col-3 {
+    width: 25%;
+    background-color: pink;
+}
